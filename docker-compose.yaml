@@ -1,0 +1,28 @@
+name: devops-07
+
+services:
+  db:
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./data:/var/lib/mysql
+    networks:
+      - app-net        
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+
+  web:
+    image: nginx:1.29.2-alpine
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./web:/usr/share/nginx/html
+      - ./uploads:/var/uploads
+    networks:
+      - app-net
+
+networks:
+  app-net: 

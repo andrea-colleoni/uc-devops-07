@@ -11,3 +11,9 @@
   - Value Stream
   - FLow of communication and Kanban
   - Shown big picture of DevOps tools
+
+
+  # Previous sessions
+  - https://github.com/andrea-colleoni/uc-devops-01
+  - https://github.com/andrea-colleoni/uc-devops-02
+  - https://github.com/andrea-colleoni/uc-devops-03
