@@ -1,3 +1,5 @@
+# Day 1
+
 - Intro DevOps
 - Chaps until How Should You Design Your DevOps Continuous Delivery And Deployment Pipeline?
 - Talked about
